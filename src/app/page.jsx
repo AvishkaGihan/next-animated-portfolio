@@ -11,7 +11,7 @@ const Homepage = () => {
       animate={{ y: "0%" }}
       transition={{ duration: 1 }}
     >
-      <div className="h-full flex flex-col lg:flex-row">
+      <div className="h-full overflow-scroll flex flex-col lg:flex-row">
         {/* IMAGE CONTAINER */}
         <div className="h-1/2 lg:h-full lg:w-1/2 relative">
           <Image src="/hero.png" alt="" fill className="object-contain" />
